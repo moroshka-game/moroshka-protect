@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "generatedon": "2025-09-15T11:04:12Z",
+    "parser": "MultiReportParser (2x OpenCoverParser)",
+    "assemblies": 1,
+    "classes": 30,
+    "files": 30,
+    "coveredlines": 218,
+    "uncoveredlines": 0,
+    "coverablelines": 218,
+    "totallines": 891,
+    "linecoverage": 100,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 103,
+    "totalmethods": 103,
+    "methodcoverage": 100
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "Moroshka.Protect", "classes": 30, "coverage": 100, "coveredlines": 218, "coverablelines": 218, "totallines": 891, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 103, "totalmethods": 103, "classesinassembly": [
+        { "name": "Moroshka.Protect.AssignableFromRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.AssignableToRequirement", "coverage": 100, "coveredlines": 7, "coverablelines": 7, "totallines": 21, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.CollectionEmptyRequirement", "coverage": 100, "coveredlines": 10, "coverablelines": 10, "totallines": 25, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Moroshka.Protect.EqualToDoubleRequirement", "coverage": 100, "coveredlines": 8, "coverablelines": 8, "totallines": 20, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.EqualToFloatRequirement", "coverage": 100, "coveredlines": 8, "coverablelines": 8, "totallines": 20, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.EqualToIntRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 16, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.EqualToRequirement", "coverage": 100, "coveredlines": 9, "coverablelines": 9, "totallines": 21, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.EqualToStrRequirement", "coverage": 100, "coveredlines": 9, "coverablelines": 9, "totallines": 21, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.FalseRequirement", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 9, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Moroshka.Protect.InRangeDRequirement", "coverage": 100, "coveredlines": 6, "coverablelines": 6, "totallines": 20, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.InRangeFRequirement", "coverage": 100, "coveredlines": 6, "coverablelines": 6, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.InRangeRequirement", "coverage": 100, "coveredlines": 6, "coverablelines": 6, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.Is", "coverage": 100, "coveredlines": 23, "coverablelines": 23, "totallines": 130, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 24, "totalmethods": 24 },
+        { "name": "Moroshka.Protect.NanDRequirement", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 9, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Moroshka.Protect.NanFRequirement", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 9, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Moroshka.Protect.NotBoolRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 16, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.NotDoubleRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 16, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.NotEnumerableRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.NotFloatRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 16, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.NotIntRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 16, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.NotRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 16, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.NotStrRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 16, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Protect.NullOrEmptyRequirement", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 9, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Moroshka.Protect.NullOrWhiteSpaceRequirement", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 9, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Moroshka.Protect.NullRequirement", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 9, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Moroshka.Protect.RequireException", "coverage": 100, "coveredlines": 9, "coverablelines": 9, "totallines": 46, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 },
+        { "name": "Moroshka.Protect.RequireExtensions", "coverage": 100, "coveredlines": 30, "coverablelines": 30, "totallines": 180, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 8, "totalmethods": 8 },
+        { "name": "Moroshka.Protect.RequirementExpression", "coverage": 100, "coveredlines": 30, "coverablelines": 30, "totallines": 122, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 23, "totalmethods": 23 },
+        { "name": "Moroshka.Protect.TrueRequirement", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 9, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Moroshka.Protect.TypeOfRequirement", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 } ] } ]
+  }
+}

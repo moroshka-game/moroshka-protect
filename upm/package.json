@@ -1,0 +1,23 @@
+{
+  "name": "com.moroshka.protect",
+  "displayName": "Moroshka.Protect",
+  "version": "1.0.0",
+  "description": "The `Moroshka.Protect` module provides methods for validating input data and conditions. It prevents errors caused by invalid data by throwing exceptions with informative messages.",
+  "unity": "6000.2",
+  "unityRelease": "0f1",
+  "author": {
+    "name": "Moroshka",
+    "email": "epishev.m@mail.ru"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "com.moroshka.xcp": "1.0.1"
+  },
+  "samples": [
+    {
+      "displayName": "Base",
+      "description": "Contains sample of using Protect.",
+      "path": "Samples~/Base"
+    }
+  ]
+}

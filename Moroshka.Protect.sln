@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{183CAFE9-4701-4EE2-9D8E-BE5C0336AE8D}") = "Moroshka.Protect", "moroshka-protect\Moroshka.Protect.csproj", "{9CCFEAC5-96B3-4E30-8DCC-2586899A1E31}"
+EndProject
+Project("{183CAFE9-4701-4EE2-9D8E-BE5C0336AE8D}") = "Moroshka.Protect.Tests", "moroshka-protect-tests\Moroshka.Protect.Tests.csproj", "{6AB36D49-7F55-4B1A-B7B3-9C65896F03E9}"
+EndProject
+Project("{183CAFE9-4701-4EE2-9D8E-BE5C0336AE8D}") = "Moroshka.Protect.Benchmark", "moroshka-protect-benchmark\Moroshka.Protect.Benchmark.csproj", "{850D2FC9-9527-434B-B304-0187EB1E66C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CCFEAC5-96B3-4E30-8DCC-2586899A1E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCFEAC5-96B3-4E30-8DCC-2586899A1E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCFEAC5-96B3-4E30-8DCC-2586899A1E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCFEAC5-96B3-4E30-8DCC-2586899A1E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB36D49-7F55-4B1A-B7B3-9C65896F03E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB36D49-7F55-4B1A-B7B3-9C65896F03E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB36D49-7F55-4B1A-B7B3-9C65896F03E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB36D49-7F55-4B1A-B7B3-9C65896F03E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850D2FC9-9527-434B-B304-0187EB1E66C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850D2FC9-9527-434B-B304-0187EB1E66C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850D2FC9-9527-434B-B304-0187EB1E66C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850D2FC9-9527-434B-B304-0187EB1E66C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

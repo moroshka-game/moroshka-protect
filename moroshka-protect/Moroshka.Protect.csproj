@@ -1,0 +1,158 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <LangVersion>9</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Moroshka.Protect</Title>
+        <Authors>Moroshka</Authors>
+        <Copyright>Copyright (c) 2025 Moroshka</Copyright>
+        <RepositoryType>Git</RepositoryType>
+        <Version>1.0.0</Version>
+        <PackageId>Moroshka.Protect</PackageId>
+        <RepositoryUrl>https://github.com/moroshka-game/moroshka-protect.git</RepositoryUrl>
+        <Description>The `Moroshka.Protect` module provides methods for validating input data and conditions. It prevents errors caused by invalid data by throwing exceptions with informative messages.</Description>
+        <PackageProjectUrl>https://github.com/moroshka-game/moroshka-protect</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>unity</PackageTags>
+        <PackageReleaseNotes>https://github.com/moroshka-game/moroshka-protect/blob/main/upm/CHANGELOG.md</PackageReleaseNotes>
+        <RootNamespace>Moroshka.Protect</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\.github\README.md">
+          <Pack>true</Pack>
+          <PackagePath>\</PackagePath>
+          <Link>Docs\README.md</Link>
+        </None>
+        <None Include="..\LICENSE.md">
+          <Pack>true</Pack>
+          <PackagePath>\</PackagePath>
+          <Link>Docs\LICENSE.md</Link>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Moroshka.Xcp" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\upm\Runtime\Contracts\IBoolRequirement.cs">
+        <Link>Runtime\Contracts\IBoolRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Contracts\IDoubleRequirement.cs">
+        <Link>Runtime\Contracts\IDoubleRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Contracts\IEnumerableRequirement.cs">
+        <Link>Runtime\Contracts\IEnumerableRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Contracts\IFloatRequirement.cs">
+        <Link>Runtime\Contracts\IFloatRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Contracts\IIntRequirement.cs">
+        <Link>Runtime\Contracts\IIntRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Contracts\IRequirementExpression.cs">
+        <Link>Runtime\Contracts\IRequirementExpression.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Contracts\IRequirement.cs">
+        <Link>Runtime\Contracts\IRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Contracts\Is.cs">
+        <Link>Runtime\Contracts\Is.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Contracts\IStrRequirement.cs">
+        <Link>Runtime\Contracts\IStrRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\RequireException.cs">
+        <Link>Runtime\RequireException.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\RequireExtensions.cs">
+        <Link>Runtime\RequireExtensions.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\AssignableFromRequirement.cs">
+        <Link>Runtime\Requirement\AssignableFromRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\AssignableToRequirement.cs">
+        <Link>Runtime\Requirement\AssignableToRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\CollectionEmptyRequirement.cs">
+        <Link>Runtime\Requirement\CollectionEmptyRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\EqualToDoubleRequirement.cs">
+        <Link>Runtime\Requirement\EqualToDoubleRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\EqualToFloatRequirement.cs">
+        <Link>Runtime\Requirement\EqualToFloatRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\EqualToIntRequirement.cs">
+        <Link>Runtime\Requirement\EqualToIntRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\EqualToRequirement.cs">
+        <Link>Runtime\Requirement\EqualToRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\EqualToStrRequirement.cs">
+        <Link>Runtime\Requirement\EqualToStrRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\FalseRequirement.cs">
+        <Link>Runtime\Requirement\FalseRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\InRangeFRequirement.cs">
+        <Link>Runtime\Requirement\InRangeFRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\InRangeRequirement.cs">
+        <Link>Runtime\Requirement\InRangeRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NanDRequirement.cs">
+        <Link>Runtime\Requirement\NanDRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NanFRequirement.cs">
+        <Link>Runtime\Requirement\NanFRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NotBoolRequirement.cs">
+        <Link>Runtime\Requirement\NotBoolRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NotDoubleRequirement.cs">
+        <Link>Runtime\Requirement\NotDoubleRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NotEnumerableRequirement.cs">
+        <Link>Runtime\Requirement\NotEnumerableRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NotFloatRequirement.cs">
+        <Link>Runtime\Requirement\NotFloatRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NotIntRequirement.cs">
+        <Link>Runtime\Requirement\NotIntRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NotRequirement.cs">
+        <Link>Runtime\Requirement\NotRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NotStrRequirement.cs">
+        <Link>Runtime\Requirement\NotStrRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\InRangeDRequirement.cs">
+        <Link>Runtime\Requirement\InRangeDRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\RequirementExpression.cs">
+        <Link>Runtime\Requirement\RequirementExpression.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\TrueRequirement.cs">
+        <Link>Runtime\Requirement\TrueRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\TypeOfRequirement.cs">
+        <Link>Runtime\Requirement\TypeOfRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NullOrEmptyRequirement.cs">
+        <Link>Runtime\Requirement\NullOrEmptyRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NullOrWhiteSpaceRequirement.cs">
+        <Link>Runtime\Requirement\NullOrWhiteSpaceRequirement.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\Requirement\NullRequirement.cs">
+        <Link>Runtime\Requirement\NullRequirement.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>

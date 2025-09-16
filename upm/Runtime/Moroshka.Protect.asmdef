@@ -1,0 +1,16 @@
+{
+  "name": "Moroshka.Protect",
+  "rootNamespace": "Moroshka.Protect",
+  "references": [
+    "Moroshka.Xcp"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
